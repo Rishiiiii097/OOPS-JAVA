@@ -1,0 +1,41 @@
+1. What is inheritance in Java?
+Ans:- Java, Inheritance is an important pillar of OOP(Object-Oriented Programming). It is the mechanism in Java by which one class is allowed to inherit the features(fields and methods) of another class. In Java, Inheritance means creating new classes based on existing ones. A class that inherits from another class can reuse the methods and fields of that class.
+2. What is superclass and subclass?
+Ans:-subclass (child) - the class that inherits from another class
+superclass (parent) - the class being inherited fromTo inherit from a class, use the extends keyword.
+3. How is inheritance implement/achived in Java?
+Ans:-The extends keyword is used for inheritance in Java. Using the extends keyword indicates you are derived from an existing class. In other words, “extends” refers to increased functionality.
+FOR EXAMPLE:-
+class DerivedClass extends BaseClass  
+{  
+   //methods and fields  
+}  
+4. What is polymorphism?
+Ans:-The word polymorphism means having many forms. In simple words, we can define Java Polymorphism as the ability of a message to be displayed in more than one form.
+5. Differentiate between method overloading and overriding?
+Ans:-Method Overloading
+Method overloading is a compile-time polymorphism.	
+Method overloading helps to increase the readability of the program.	
+It occurs within the class.	
+Method Overriding:-
+Method overriding is a run-time polymorphism.
+Method overriding is used to grant the specific implementation of the method which is already provided by its parent class or superclass.
+It is performed in two classes with inheritance relationships.
+6. What is an abstraction explained with an example?
+Ans:-Abstraction in Java is the process in which we only show essential details/functionality to the user. The non-essential implementation details are not displayed to the user. 
+For example:-Television remote control is an excellent example of abstraction. It simplifies the interaction with a TV by hiding the complexity behind simple buttons and symbols,
+7. What is the difference between an abstract method and final method in Java?explain with an example?
+Ans:-Final Class: A class which is declared with the “Final” keyword is known as the final class. The final keyword is used to finalize the implementations of the classes, the methods and the variables used in this class. The main purpose of using a final class is to prevent the class from being inherited (i.e.) if a class is marked as final, then no other class can inherit any properties or methods from the final class. If the final class is extended, Java gives a compile-time error. 
+A class that is declared using the “abstract” keyword is known as an abstract class. The main idea behind an abstract class is to implement the concept of Abstraction. An abstract class can have both abstract methods as well as the concrete methods. However, a normal class cannot have abstract methods. 
+8. What is the final class in Java?
+Ans:-The final method in Java is used as a non-access modifier applicable only to a variable, a method, or a class. It is used to restrict a user in Java.
+The following are different contexts where the final is used:
+Variable
+Method
+Class
+
+9. Differentiate between abstraction and encapsulation?
+Ans:-Encapsulation is defined as the wrapping up of data under a single unit. It is the mechanism that binds together code and the data it manipulates. Another way to think about encapsulation is, that it is a protective shield that prevents the data from being accessed by the code outside this shield. Technically in encapsulation, the variables or data of a class are hidden from any other class and can be accessed only through any member function of its class in which they are declared. 
+Abstaraction:-Data Abstraction is the property by virtue of which only the essential details are displayed to the user. The trivial or the non-essential units are not displayed to the user. Ex: A car is viewed as a car rather than its individual components. Data Abstraction may also be defined as the process of identifying only the required characteristics of an object ignoring the irrelevant details. 
+10. Difference between runtime and compile time polymorphism explain with an example?
+Ans:-Abstraction and Encapsulation are two of the 4 pillars that build the foundation of Object-Oriented-Programming. Basic characteristics involve code-reusability, overriding, security purpose, data hiding, and implementation hiding.
